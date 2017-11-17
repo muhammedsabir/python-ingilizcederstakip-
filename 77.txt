@@ -1,0 +1,17 @@
+CREATE TABLE ogrenci 
+ ( 'id' integer primary key AUTOINCREMENT,
+ 'adsoyad' varchar(40) DEFAULT NULL, 
+ 'adres' varchar(250) DEFAULT NULL,
+ 'telefon' varchar(12) DEFAULT NULL,
+ 'meslek' varchar(25) DEFAULT NULL,
+ 'ucret' varchar(10) DEFAULT NULL,
+ 'email' varchar(40) DEFAULT NULL, 
+ 'kayit_tarihi' date DEFAULT NULL,
+ 'bitis_tarihi' date DEFAULT NULL,
+ 'ders_gunleri' varchar(25) DEFAULT NULL,
+ 'aylik_takip' date DEFAULT NULL,
+ 'kac_saat' varchar(2) DEFAULT NULL,
+ 'baslangic_saat' varchar(12) DEFAULT NULL,
+ 'bitis_saat' varchar(12) DEFAULT NULL,
+ 'aktif' varchar(1) DEFAULT NULL
+ )

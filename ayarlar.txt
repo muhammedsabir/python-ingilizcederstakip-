@@ -1,0 +1,2 @@
+db_sifirla = "0"
+mail = "deneme@deneme.com"
